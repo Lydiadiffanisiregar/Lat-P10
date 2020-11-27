@@ -21,26 +21,6 @@ Untuk membuat task diatas saya dengan source code sebagai berikut: <br>
 **Untuk membuat file **Data** tersebut saya menggunakan source code dibawah ini :** <br>
 
 ```
-from data import buku
-print("===============================================================")
-print("|                     Data Mahasiswa Malam                    |")
-print("===============================================================")
-
-buku.add()
-buku.show()
-```
-
-Kemudian kita *save* di folder sendiri, disini saya menyimpan file **buku** kedalam folder **Data** dan saya simpan dengan file name *book*. <br>
-
-<div align="center">
-<img src="foto/folder.PNG" >
-</div> <br>
-
-Source Code diatas berfungi sebagai berbagai *action syntax* yang nanti akan di run di file **Main Script**.
-<br>
-**Kemudian untuk file **Main Script** nya sendiri saya menggunakan source code sebagai berikut :**
-
-```
 data = []
 data = {}
 
@@ -170,6 +150,26 @@ def show():
               (no, tabel[0],
                tabel[1], tabel[2],
                tabel[3], tabel[4]))
+```
+
+Kemudian kita *save* di folder sendiri, disini saya menyimpan file **buku** kedalam folder **Data** dan saya simpan dengan file name *book*. <br>
+
+<div align="center">
+<img src="foto/folder.PNG" >
+</div> <br>
+
+Source Code diatas berfungi sebagai berbagai *action syntax* yang nanti akan di run di file **Main Script**.
+<br>
+**Kemudian untuk file **Main Script** nya sendiri saya menggunakan source code sebagai berikut :**
+
+```
+from data import buku
+print("===============================================================")
+print("|                     Data Mahasiswa Malam                    |")
+print("===============================================================")
+
+buku.add()
+buku.show()
 ```              
 
 **Kemudian setelah 2 file tersebut dibuat, lalu kita run. Maka akan menghasilkan output sebagai berikut:**
